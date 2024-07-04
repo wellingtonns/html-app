@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Atalhos Ilink</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #425c83;
+      color: white;
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    body h1 {
+      color: rgb(255, 255, 255);
+      font-family: Helvetica;
+      font-size: 50px;
+      padding: 5px;
+      display: block;
+    }
+
+    a {
+      color: white;
+    }
+
+    a input {
+      width: 157px;
+      height: 40px;
+      background-color: #384e70;
+      color: white;
+      cursor: pointer;
+      border: none;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 16px;
+    }
+
+    a input:hover {
+      background-color: rgb(97, 114, 165);
+      transition: 0.7s;
+    }
+
+
+    .link {
+      margin-top:0px;
+      background-color: rgb(56, 79, 112);
+      width: 100%;
+      height: 80px;
+      text-align: center;
+      display: none;
+      margin-bottom: 10px;
+    }
+
+    img {
+      margin-top: 10px;
+      width: 100px;
+      height: 55px;
+      position: absolute;
+      display: block;
+      margin-left: 20px;
+
+    }
+
+    p {
+      font-family: Arial, Helvetica;
+
+    }
+
+    .fotos {
+      background-color: rgb(250, 250, 250);
+      margin-top: 30px;
+      width: 800px;
+      height: 400px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .logo2 {
+      margin-left: 90%;
+      width: 110px;
+      height: 80px;
+    }
+    #menuIcon{
+      display: block;
+      color: white;
+      text-align: 10px left;
+      height:30px;
+      background-color:rgb(56, 79, 112);
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    
+    #menuIcon:hover{
+      background-color: rgb(57, 118, 172);
+      color: black;
+    }
+   
+  </style>
+</head>
+
+<body>
+  <img src="https://www.ilinksolutions.com.br/wp-content/uploads/2021/06/Logo-2.png" alt="logo">
+  <img class="logo2" src="https://cvortex.com/wp-content/uploads/2022/08/Typedefault.svg" alt="logo2">
+  <h1>Rotinas de Trabalho</h1>
+  <p>Links para Acesso </p>
+  <ul><div onclick="clickMenu()">
+        <span class="material-symbols-outlined" id="menuIcon">menu</span>
+      </div>
+    <div class="link" id="menu">
+      
+      <a href="https://app.callink.com.br/RegistroPonto_User/Login" target="_blank"><input type="button"
+          value="Relogio de Ponto"></a>
+      <a href="https://ilinklab.cvortex.com/" target="_blank"><input type="button" value="cVortex Lab"></a>
+      <a href="https://www.office.com/?auth=2" target="_blank"><input type="button" value="Office Online"></a>
+      <a href="https://sd.callink.com.br/otrs/index.pl?Action=AgentTicketSearch;Subaction=Search;ChallengeToken=2EOo6D8YO8dbPi0DPXaRUg3ccqAnMpsx;;StateIDs=4;QueueIDs=76;SortBy=Age;OrderBy=Up"
+        target="_blank"><input type="button" value="Pagina de Chamados"></a>
+      <a href="https://sd.callink.com.br/ajuda/" target="_blank"><input type="button" value="Portal Sd"></a>
+      <a href="https://tasks.office.com/ilinksolutions.com.br/pt-BR/Home/Planner/" target="_blank"><input type="button"
+          value="Planner"></a>
+      <a href="https://www.geradordesenha.com.br/" target="_blank"><input type="button" value="Gerador de senha"></a>
+      <a href="https://outlook.office.com/mail/" target="_blank"><input type="button" value="Outlook"></a>
+      <a href="https://dasa.cvortex.com/crm/" target="_blank"><input type="button" value="DASA CVortex"></a>
+      <a href="https://maisvalor.cvortex.com/crm/" target="_blank"><input type="button" value="Mais Valor CVortex"></a>
+      <a href="https://aec.ilinksolutions.com.br/" target="_blank"><input type="button" value="Team Task AeC"></a>
+      <a href="https://ilinkdemo.cvortex.com/crm/" target="_blank"><input type="button" value="Ilink Demo"></a>
+      <a href="https://sofisadireto.ilinksolutions.com.br/" target="_blank"><input type="button" value="Sofisa Team Task"></a>
+      <a href="https://platform.senior.com.br/login/?redirectTo=https%3A%2F%2Fplatform.senior.com.br%2Fsenior-x%2F%23%2F" target="_blank"><input type="button" value="Sênior X"></a>
+      <a href="https://chamados-sinergytech.tomticket.com/helpdesk" target="_blank"><input type="button" value="Synergy tech OTRS"></a>
+      <a href="http://10.33.114.2/Login.aspx" target="_blank"><input type="button" value="Synergy Tech Sofisa"></a>
+      <a href="https://cvortex.atlassian.net/servicedesk/customer/portals" target="_blank"><input type="button" value="Chamados cVortex"></a>
+    </div>
+  </ul>
+  <script>
+    function clickMenu(){
+      if(menu.style.display == 'block'){
+        menu.style.display = 'none'
+      } else(
+        menu.style.display ='block'
+      )
+    }
+
+
+  </script>
+</body>
+
+</html>
